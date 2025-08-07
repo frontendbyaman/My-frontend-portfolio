@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend by Aman</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #00ffff;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .skills div, .projects div {
+      flex: 1 1 250px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.9em;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+      section {
+        padding: 20px 10px;
+      }
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Frontend by Aman</h1>
+    <p>Web Developer | Creative Coder | Learner</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Aman. I love building beautiful and functional websites. I'm learning frontend development step by step, and this is my live portfolio on GitHub. More updates coming soon!</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div>✅ HTML</div>
+      <div>✅ CSS</div>
+      <div>🧠 JavaScript (Learning...)</div>
+      <div>🚀 React (Coming Soon)</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div>
+        <h3>Portfolio Website</h3>
+        <p>This website you're viewing right now – built with pure HTML and CSS and hosted on GitHub Pages!</p>
+      </div>
+      <div>
+        <h3>Mini Card Generator</h3>
+        <p>A mini project using JS for dynamic card creation – coming soon!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Mail me at: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+    <p>🌐 GitHub: <a href="https://github.com/frontendbyaman" target="_blank">github.com/frontendbyaman</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Frontend by Aman. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
